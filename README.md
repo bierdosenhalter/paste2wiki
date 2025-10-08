@@ -1,9 +1,9 @@
-clipboard2markdown
-==================
+paste2wiki
+==========
 
 > Easily convert richly formatted text or HTML to
-> [Markdown](http://daringfireball.net/projects/markdown/syntax).
-> Use the clipboard and paste to Markdown with a single keypress.
+> [MediaWiki syntax](https://www.mediawiki.org/wiki/Markup_spec).
+> Use the clipboard and paste to MediaWiki with a single keypress.
 >
 > The conversion is carried out by
 > [to-markdown](https://github.com/domchristie/to-markdown),
@@ -14,7 +14,7 @@ Demo
 
 ### Interactive
 
-<http://euangoddard.github.io/clipboard2markdown/>
+!TODO <https://bierdosenhalter.github.io/paste2wiki/>
 
 ### Video
 
@@ -26,23 +26,17 @@ Usage
 Open [index.html](index.html) in a favorite browser and hit `Ctrl+C`
 (or `⌘+C` on Mac).
 
-To copy the converted Markdown to the clipboard, press `Ctrl+A`
+To copy the converted MediaWiki syntax to the clipboard, press `Ctrl+A`
 followed by `Ctrl+C` (or `⌘+A` and `⌘+C` on Mac).
 
 One can paste multiple times. This overwrites the previous conversion.
 
-### Tested browsers
-
--   Chrome 33 (Linux and OS X)
--   Firefox 27 (Linux)
--   Safari 5 (OS X)
--   Internet Explorer 11 (Windows)
-
 About
 -----
 
-[clipboard2markdown](https://github.com/euangoddard/clipboard2markdown)
-was created by [Euan Goddard](https://github.com/euangoddard).
+[paste2wiki](https://github.com/bierdosenhalter/paste2wiki)
+was forked from [clipboard2markdown](https://github.com/euangoddard/clipboard2markdown)
+created by [Euan Goddard](https://github.com/euangoddard).
 The original version used
 [html2markdown](https://github.com/kates/html2markdown) by
 [Kates Gasis](https://github.com/kates) and
@@ -51,6 +45,10 @@ The original version used
 [to-markdown](https://github.com/domchristie/to-markdown) by
 [Dom Christie](https://github.com/domchristie). The HTML template
 is based on [Bootstrap](http://getbootstrap.com/).
+
+This version transforms the project to convert rich-text content
+to MediaWiki syntax instead of Markdown, making it easier to
+paste formatted content into MediaWiki-based platforms like Wikipedia.
 
 ### License
 
