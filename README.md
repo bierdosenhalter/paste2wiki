@@ -14,7 +14,7 @@ Demo
 
 ### Interactive
 
-!TODO <https://bierdosenhalter.github.io/paste2wiki/>
+<https://bierdosenhalter.github.io/paste2wiki/>
 
 ### Video
 
@@ -59,3 +59,4 @@ for details.
 
 [license-image]: https://img.shields.io/npm/l/markdownlint.svg
 [license-url]: http://opensource.org/licenses/MIT
+
