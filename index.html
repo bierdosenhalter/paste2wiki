@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Paste to MediaWiki</title>
@@ -76,11 +76,13 @@
             <li>Paste it into this window (<code>Ctrl+V</code>, or <code>&#8984;+V</code> on Mac)</li>
             <li>The converted MediaWiki syntax will appear!</li>
         </ol>
-        <p>The conversion is carried carried out by a modified version of <a href="https://github.com/euangoddard/clipboard2markdown">clipboard2markdown</a>, running locally in the browser.</p>
+        <p>The conversion is carried out by a modified version of <a
+                href="https://github.com/euangoddard/clipboard2markdown">clipboard2markdown</a>, running locally in the
+            browser.</p>
     </section>
     <div contenteditable="true" id="pastebin"></div>
     <section class="hidden" id="wrapper">
-        <textarea id="output"></textarea>
+        <label for="output">MediaWiki Code</label><textarea id="output"></textarea>
     </section>
 </div>
 </body>
